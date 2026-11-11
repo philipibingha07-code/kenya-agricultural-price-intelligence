@@ -100,15 +100,15 @@ The goal is to transform fragmented agricultural data into structured insights t
 
 Based on the agricultural price analysis and data quality assessment, the following recommendations were identified:
 
-1. **Standardise Currency and Units:** Standardise LCU, SLC and USD labels, validate missing years and resolve inconsistencies in product mappings before developing forecasting models.
+. **Standardise Currency and Units:** Standardise LCU, SLC and USD labels, validate missing years and resolve inconsistencies in product mappings before developing forecasting models.
 
-2. **Improve Monthly Data Coverage:** Track monthly observations across FEWS NET and WFP datasets. Flag incomplete years and separately classify partial-year records to prevent misleading annual comparisons.
+. **Improve Monthly Data Coverage:** Track monthly observations across FEWS NET and WFP datasets. Flag incomplete years and separately classify partial-year records to prevent misleading annual comparisons.
 
-3. **Develop a Multi-Source Maize Forecasting Model:** Build a forecasting model using lagged prices, rolling averages, year-on-year (YoY) growth rates and seasonal patterns to improve commodity price prediction.
+. **Develop a Multi-Source Maize Forecasting Model:** Build a forecasting model using lagged prices, rolling averages, year-on-year (YoY) growth rates and seasonal patterns to improve commodity price prediction.
 
-4. **Investigate 2022–2023 Price Shocks:** Examine significant price movements alongside inflation, exchange rates, climate conditions and agricultural production data to identify potential contributing factors.
+. **Investigate 2022–2023 Price Shocks:** Examine significant price movements alongside inflation, exchange rates, climate conditions and agricultural production data to identify potential contributing factors.
 
-5. **Calculate Real-Price Indicators:** Incorporate available economic deflators to distinguish nominal price increases from real price changes and provide a more accurate understanding of agricultural commodity price movements.
+. **Calculate Real-Price Indicators:** Incorporate available economic deflators to distinguish nominal price increases from real price changes and provide a more accurate understanding of agricultural commodity price movements.
 
 ## 📈 Interactive Dashboard
 
