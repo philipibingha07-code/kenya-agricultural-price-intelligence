@@ -1,108 +1,41 @@
-# 🌍 Kenya Agricultural Price Intelligence Dashboard
+🌍 Kenya Agricultural Price Intelligence Dashboard
+1. Project Overview
+The Kenya Agricultural Price Intelligence project analyses historical agricultural commodity prices to understand market trends, price movements, seasonal patterns and year-on-year changes.
 
-## Project Overview
+Developed as part of my agricultural intelligence work at OpenTrace, the project uses SQL, Google BigQuery and Looker Studio to integrate and analyse agricultural datasets from FAOSTAT, FEWS NET and the World Food Programme (WFP).
 
-The Kenya Agricultural Price Intelligence project analyses historical agricultural commodity prices to identify market trends, price movements, seasonal patterns and year-on-year changes.
-
-Developed as part of my work in agricultural intelligence at OpenTrace, the project uses SQL and Google BigQuery to analyse agricultural datasets from sources including FAOSTAT, FEWS NET and WFP.
-
-The objective is to transform fragmented agricultural data into structured insights that support market analysis and informed decision-making.
-
-## Objectives
-
-- Analyse historical agricultural commodity prices in Kenya.
-- Examine retail and wholesale price movements.
-- Calculate annual average, median, minimum and maximum prices.
-- Evaluate year-on-year price growth.
-- Assess data coverage and historical availability.
-- Build an interactive dashboard for exploring commodity price trends.
-
-## Technology Stack
-
+The objective is to transform fragmented agricultural data into structured insights that support market analysis, price monitoring and informed decision-making across agricultural markets.
+2. Project Objectives
+- Analyse historical agricultural commodity prices across Kenya.
+- Examine retail, wholesale and producer price movements.
+- Identify seasonal patterns and annual price variations.
+- Evaluate price growth, market volatility and historical trends.
+- Assess data quality, historical coverage and source consistency.
+- Develop an interactive agricultural price intelligence dashboard.
+3. Key Areas of Analysis
+📊 Price Statistics
+Analyse minimum, maximum, mean and average commodity prices to identify price levels, variations and differences across agricultural markets.
+📈 Year-on-Year (YoY) Growth
+Calculate annual percentage changes to identify price increases, declines, major price shocks and long-term commodity price trends.
+📅 Monthly Data Coverage
+Examine months observed for each commodity, source and year to assess data completeness, identify missing periods and distinguish full-year from partial-year observations.
+💱 Price and Currency Analysis
+Analyse commodity prices across USD/tonne, SLC/tonne and LCU/tonne to compare price movements, evaluate currency effects and understand differences between nominal local-currency and international-dollar prices.
+4. Technology Stack
 - SQL
 - Google BigQuery
 - Looker Studio
 - Microsoft Excel
 - Data Analytics and Visualisation
-
-## Data Sources
-
-- FAOSTAT
-- FEWS NET
-- World Food Programme (WFP)
-
-## Dashboard Features
-
-- Mean commodity price
-- Median commodity price
-- Minimum commodity price
-- Maximum commodity price
-- Months observed
-- Commodity filter
-- Data source filter
-- Price type filter
-- Historical price trends
-- Annual price comparisons
-- Year-on-year growth analysis
-
-## Project Coverage
-
-- **Country:** Kenya
-- **Commodities:** 25 selected agricultural commodities
-- **Data analysis:** Historical agricultural market price data
-
-## Repository Structure
-
-```text
-dashboard/        Dashboard screenshots and links
-sql/              SQL queries and analysis
-documentation/    Methodology, data dictionary and findings
-images/           Project images and visual assets
-```
-
-## Key Insights
-
-### Cross-Country Agricultural Indicator Comparison
-
-An additional analysis covering 50 countries identified considerable variation in the recorded values of the selected agricultural indicator.
-
-| Country | Recorded Value | Ranking |
-|---|---:|---:|
-| Burundi | 126,973 | 1st |
-| Nigeria | 119,725 | 2nd |
-| Somalia | 89,151 | 3rd |
-| Kenya | 42,132 | 9th |
-| South Africa | 16,089 | 14th |
-| Equatorial Guinea | 1,973 | 50th |
-
-### Key Observations
-
-- **Burundi:** Recorded the highest value at 126,973.
-- **Nigeria:** Ranked second out of 50 countries, with 119,725.
-- **Somalia:** Ranked third, with 89,151.
-- **Kenya:** Ranked ninth, with 42,132.
-- **South Africa:** Ranked fourteenth, with 16,089.
-- **Equatorial Guinea:** Recorded the lowest value at 1,973.
-
-### Analytical Interpretation
-
-The findings reveal substantial differences in the recorded agricultural indicator values across the countries analysed. Nigeria's second-place ranking highlights its position within the comparison, while Kenya's ninth-place ranking provides a useful reference for further country-level analysis.
-
-These findings should be interpreted according to the indicator's definition, measurement unit, reference year and data coverage. They should not automatically be treated as a ranking of overall agricultural productivity.
-
-## Dashboard
-
-[View the Interactive Looker Studio Dashboard](ADD_YOUR_REAL_LOOKER_STUDIO_LINK_HERE)
-
-## Author
-
-**Philip Ibingha**
-
-Data Scientist | Agricultural Intelligence | SQL | Python | BigQuery
-
-- [GitHub](https://github.com/philipibingha07-code)
-- [LinkedIn](https://www.linkedin.com/in/philip-ibingha-a296a5380/)
-
----
-
-*This project demonstrates the application of data analytics and agricultural intelligence to understanding commodity markets and agricultural indicators across Africa.*
+5. Data Sources and Coverage
+The project integrates 34,864 agricultural price observations from three major data sources.
+Source	Observations	Share	Products
+FEWS NET	22,717	65.2%	39
+FAOSTAT	8,747	25.1%	131
+WFP	3,400	9.8%	34
+Total	34,864	100%	—6. Project Coverage
+- Country: Kenya
+- Commodities: 25 selected agricultural commodities
+- Price categories: Retail, wholesale and producer prices
+- Currency units: USD/tonne, SLC/tonne and LCU/tonne, where available
+- Analysis: Historical commodity prices, market trends and price movements
